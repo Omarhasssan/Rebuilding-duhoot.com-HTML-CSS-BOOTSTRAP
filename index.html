@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+ 	<link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> 
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <a class="navbar-brand d-flex logo" href="#">
+			  	<img src="imges/logo.png" alt="">
+			  </a>
+
+			   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				   	<ul class=" navbar-nav order-2 ">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Reality </a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Reality </a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Reality </a>
+				      </li>
+	 				<li class="nav-item active">
+				        <a class="nav-link" href="#">Reality </a>
+				      </li>
+
+				   </ul>
+			   </div>
+				<div class="nav-right w-25 d-flex flex-wrap align-items-center h-100">
+					<div class="d-flex search h-100">
+						
+							<div style="height: 4rem"   data-toggle="collapse" data-target="#search"   aria-label="Toggle navigation"    class=" search-wrapper">
+								<img src="imges/search.png" alt="">
+							</div>
+					</div>
+					<div  class=" d-flex align-items-center login h-100 ">
+					
+						<div style="height: 4rem"  class="r align-items-center ml-1 w-100 d-flex flex-sm-wrap login-wrapper">
+							<div  class="mr-3" >
+								<img style="width: 13px;" class="mr-2" src="imges/login.png" alt=""><span style="font-size: 9pt;">Login</span>
+							</div>
+							<div >
+								<img style="width: 13px;" class="mr-2" src="imges/login.png" alt=""><span style="font-size: 9pt;">Signup</span>
+							</div>
+
+						</div>
+					</div>
+					 <form  id="search" class="w-100 form-inline collapse ">
+					      <input class="w-100 form-control h-100" type="search" placeholder="Search" aria-label="Search">
+					 </form>
+				</div>
+				
+		</nav>
+	</header>
+	<section class="search-section">
+		<div class="search-bg p-4 d-flex justify-content-center" >
+			<form>
+
+				<div class="form-group row justify-content-center" >
+					<span style="text-align: center;color:white	; font-size:1.7rem; " class="col-12  " >What are you looking for ? </span>
+
+					<div aria-autocomplete="list" 
+						 aria-multiline="true" 
+						 class=" selectbox mt-4 mr-5 col-4 col-sm-auto col-md-auto"
+						 contentEditable="false" 
+						 role="textbox"  >
+						<select  class="form-control " name="" id="">
+
+							<option  value="">Dubai</option>
+							<option value="">Dubai</option>
+						</select>
+					</div>
+						<div aria-autocomplete="list" 
+						 aria-multiline="true" 
+						 class=" selectbox mt-4 col-4  col-sm-auto col-md-auto"
+						 contentEditable="false" 
+						 role="textbox"  >
+						<select  class="form-control " name="" id="">
+
+							<option  value="">Dubai</option>
+							<option value="">Dubai</option>
+						</select>
+						</div>
+					<div class="w-100"></div>
+					<div class="mt-4 col-8  col-sm-auto col-md-auto">
+					 	<input  class="search-input col form-control" type="text" placeholder="Search.." />
+					</div>
+
+						<div class="w-100"></div>
+
+					<div style="text-align: center;" class="  mt-4 col-5">
+						<button style="width: 7rem;
+    border-radius: 2rem;background-color: rgb(233, 78, 56);
+  box-shadow: 0px 2px 0px 0px rgba(193, 65, 46, 0.004);color: white" type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+							Search
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<section     class="d-flex flex-column align-items-center container menu-section">
+		<div style="padding: 10px;"  class="row w-100 justify-content-center ">
+			<div class="col-auto"  >
+				<ul class=" d-flex align-items-center    h-100" >
+					<li class="mr-3"  >Recomended</li>
+					<li class="mr-3" >Recomended</li>
+					<li >Recomended</li>
+				</ul>
+			</div>
+			<div class="col-auto  "   >
+				<div class="row justify-content-center align-items-center h-100">
+						<div aria-autocomplete="list" 
+						 aria-multiline="true" 
+						 class=" selectbox2  col-auto"
+						 contentEditable="false" 
+						 role="textbox"  >
+						<select  class="form-control " name="" id="">
+							<option  value="">Dubai</option>
+							<option value="">Dubai</option>
+						</select>
+						</div>
+					<div class="col-auto">
+						<button id="map-button">
+						HIDE MAP
+						<img src="imges/map.png" alt="">
+						</button>
+					</div>		
+				</div>
+			</div>
+			<div style="width: 20rem;" class="col-auto" >
+				<div  class="filters row  mt-1  align-items-center h-100 " >
+														
+							<span class="col">Filter:</span>
+							<div class="f1 col">
+								<a href=""><img src="imges/f11.png" alt=""></a>
+							</div>
+							<div class="f2 col">
+								<a href=""><img src="imges/f22.png" alt=""></a>
+							</div>
+							<div class="f3 col">
+								<a href=""><img src="imges/f33.png" alt=""></a>
+							</div>
+							<div class="f4 col">
+								<a href=""><img src="imges/f44.png" alt=""></a>
+							</div>
+							<div class="f5 col">
+								<a href=""><img src="imges/f55.png" alt=""></a>
+							</div>			
+				</div>
+			</div>
+		</div>
+
+	
+	
+
+	<div style="max-width: 54rem;" class=" row  justify-content-center ">
+
+		
+		<div style="border-radius: 1rem;" class="mt-3 post-lg  col-12 col-sm-auto col-md-auto col-lg-auto ">
+				<div style="border-bottom:3px solid #f19e1f;background-repeat:no-repeat;padding: 0px!important;" class="col post-cover-lg ">
+				</div><!-- cover  -->
+				
+
+					<div style="max-width: 28.3rem;" class="col-auto post-details ">
+
+						<div style=" position: relative; bottom: 1.3rem; color: white;" class="row ">
+									<div class="col-auto">
+										<div class="filter-background-lg" >
+											<div class="filter-logo" >
+												<img src="imges/f11.png" alt="">
+											</div>
+										</div>
+									</div><!-- first column for logo -->
+									<div class="col">
+										<div style="position: relative;bottom: 5px;left: 9px;" class="row">
+											<div class="col-auto">
+												VISION AGENCY
+											</div><!-- second column for name -->
+											<div class="col-auto">
+												<div class="row">
+													<div style="padding-right: 0px;"  class="col rating">
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+													</div> 	
+													<p style="padding: 0" class="no-rating col-auto">(365)</p>
+												</div>
+
+												
+												
+											</div><!-- third column for stars -->
+											
+										</div>
+										<div style="font-size: 1.3rem"   class="mt-2 mr-2 p-1 rating">
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+										</div> 
+									</div>
+						</div><!-- first row for filter and name and stars and rating component -->
+					
+
+					<div style="margin-top: -1rem;" class="row no-gutters">
+						
+						<div class="profile-pic mr-2 col-auto">
+							<img src="imges/img.png" alt="">
+						</div>
+						<div class="col">
+							PETER145
+							<p style="max-width:300px; font-size: 10pt;color: gray;" >
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ad sequi nam officia iusto laboriosam fuga maxime mollitia beatae accusantium, blanditiis exerci
+							</p>
+						</div>
+					</div>			
+
+					
+
+
+					</div><!-- post-details  -->
+		</div>
+
+
+		<div style="border-radius: 1rem;max-width: 200px;" class="mt-3 col-auto " >
+				<div style="border-bottom:3px solid #1baf5d;background-repeat:no-repeat;padding: 0px!important;" class="col post-cover ">
+				<div  class="post-price">
+					$2,900
+				</div>
+				<div  class="d-flex justify-content-center ">
+					<div class="filter-background" >
+						<div class="filter-logo" >
+							<img src="imges/f11.png" alt="">
+						</div>
+					</div>
+				</div>	
+				</div><!-- cover and profile pic -->
+				
+				<div  class="post-details row ">
+					<div style="text-align: center;"  class="mt-4 mb-3 col-12">
+						2 bedroom house for rent in dubai
+					</div><!-- title -->
+					<div style="text-align: center;" class="name col">
+						<span>VISION AGENCY</span>
+						<div class="col">
+							<div class="row justify-content-center">
+								<div style="padding-right: 0px;"  class="col-auto rating">
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									
+								</div>
+								<p style="color: #6c6e6e" >(365)</p>		
+							</div>
+							
+						</div>
+					</div>
+				</div>
+		</div>
+	<div style="border-radius: 1rem;max-width: 212px;" class="mt-3 col-auto " >
+				<div style="border-bottom:3px solid #1baf5d;background-repeat:no-repeat;padding: 0px!important;" class="col post-cover ">
+				<div  class="post-price">
+					$2,900
+				</div>
+				<div class="d-flex justify-content-center w-100">
+					<div class="filter-background" >
+						<div class="filter-logo" >
+							<img src="imges/f11.png" alt="">
+						</div>
+					</div>
+				</div>	
+				</div><!-- cover and profile pic -->
+				
+				<div  class="post-details row">
+					<div style="text-align: center;"  class="mt-4 mb-3 col-12">
+						2 bedroom house for rent in dubai
+					</div><!-- title -->
+					<div style="text-align: center;" class="name col">
+						<span>VISION AGENCY</span>
+						<div class="col">
+							<div class="row justify-content-center">
+								<div style="padding-right: 0px;"  class="col-auto rating">
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									<span>☆</span>
+									
+								</div>
+								<p style="color: #6c6e6e" >(365)</p>		
+							</div>
+							
+						</div>
+					</div>
+				</div>
+		</div>	
+			<div style="border-radius: 1rem;" class="mt-3 post-lg  col-12 col-sm-auto col-md-auto col-lg-auto ">
+				<div style="border-bottom:3px solid #f19e1f;background-repeat:no-repeat;padding: 0px!important;" class="col post-cover-lg ">
+				</div><!-- cover  -->
+				
+
+					<div style="max-width: 28.3rem;" class="col-auto post-details ">
+
+						<div style=" position: relative; bottom: 1.3rem; color: white;" class="row no-gutters">
+									<div class="col-auto">
+										<div class="filter-background-lg" >
+											<div class="filter-logo" >
+												<img src="imges/f11.png" alt="">
+											</div>
+										</div>
+									</div><!-- first column for logo -->
+									<div class="col">
+										<div style="position: relative;bottom: 5px;left: 9px;" class="row">
+											<div class="col-auto">
+												VISION AGENCY
+											</div><!-- second column for name -->
+											<div class="col-auto">
+												<div class="row">
+													<div style="padding-right: 0px;"  class="col rating">
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+													</div> 	
+													<p style="padding: 0" class="no-rating col-auto">(365)</p>
+												</div>
+
+												
+												
+											</div><!-- third column for stars -->
+											
+										</div>
+										<div style="font-size: 1.3rem"   class="mt-2 mr-2 p-1 rating">
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+										</div> 
+									</div>
+						</div><!-- first row for filter and name and stars and rating component -->
+					
+
+					<div style="margin-top: -1rem;" class="row no-gutters">
+						
+						<div class="profile-pic mr-2 col-auto">
+							<img src="imges/img.png" alt="">
+						</div>
+						<div class="col">
+							PETER145
+							<p style="max-width:300px; font-size: 10pt;color: gray;" >
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ad sequi nam officia iusto laboriosam fuga maxime mollitia beatae accusantium, blanditiis exerci
+							</p>
+						</div>
+					</div>			
+
+					
+
+
+					</div><!-- post-details  -->
+		</div>
+			<div style="border-radius: 1rem;" class="mt-3 post-lg  col-12 col-sm-auto col-md-auto col-lg-auto ">
+				<div style="border-bottom:3px solid #f19e1f;background-repeat:no-repeat;padding: 0px!important;" class="col post-cover-lg ">
+				</div><!-- cover  -->
+				
+
+					<div style="max-width: 28.3rem;" class="col-auto post-details ">
+
+						<div style=" position: relative; bottom: 1.3rem; color: white;" class="row no-gutters">
+									<div class="col-auto">
+										<div class="filter-background-lg" >
+											<div class="filter-logo" >
+												<img src="imges/f11.png" alt="">
+											</div>
+										</div>
+									</div><!-- first column for logo -->
+									<div class="col">
+										<div style="position: relative;bottom: 5px;left: 9px;" class="row">
+											<div class="col-auto">
+												VISION AGENCY
+											</div><!-- second column for name -->
+											<div class="col-auto">
+												<div class="row">
+													<div style="padding-right: 0px;"  class="col rating">
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+														<span>☆</span>
+													</div> 	
+													<p style="padding: 0" class="no-rating col-auto">(365)</p>
+												</div>
+
+												
+												
+											</div><!-- third column for stars -->
+											
+										</div>
+										<div style="font-size: 1.3rem"   class="mt-2 mr-2 p-1 rating">
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+											<span>☆</span>
+										</div> 
+									</div>
+						</div><!-- first row for filter and name and stars and rating component -->
+					
+
+					<div style="margin-top: -1rem;" class="row no-gutters">
+						
+						<div class="profile-pic mr-2 col-auto">
+							<img src="imges/img.png" alt="">
+						</div>
+						<div class="col">
+							PETER145
+							<p style="max-width:300px; font-size: 10pt;color: gray;" >
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ad sequi nam officia iusto laboriosam fuga maxime mollitia beatae accusantium, blanditiis exerci
+							</p>
+						</div>
+					</div>			
+
+					
+
+
+					</div><!-- post-details  -->
+		</div>
+	</div><!--enddd-->
+
+<div class="mt-4" style=" opacity:0.5;padding:1px ;background-color: rgb(226, 222, 224); margin: 0 auto; width: 80% " ></div>
+
+
+	</section>
+
+
+	<section  class="section3 container">
+	<div style="text-align: center;" class="mt-5 col">
+			<div style="font-family: Gotham;color: rgb(86, 99, 117);font-size: 1.3rem">
+				What can DuHoot offer to you ?
+			</div>  
+			<div style="font-size: 16px;font-family: Gotham;color: rgb(150, 166, 167); ">
+				<p>
+					Etiam cursus ipsum quis enim faucibus 
+				</p>
+			</div>
+	</div>
+
+
+	<div  class="row justify-content-center" >
+		<div class=" vec-bg ">
+			<img src="imges/vec1.png" alt="">
+		</div>
+		<div class="col-auto vborder"></div>
+		<div class=" vec2-bg ">
+			<img src="imges/vec2.png" alt="">
+		</div>
+		<div class="col-auto vborder"></div>
+		<div class=" vec2-bg ">
+			<img src="imges/vec3.png" alt="">
+		</div>
+		<div class="col-auto vborder"></div>
+		<div class=" vec2-bg ">
+			<img src="imges/vec4.png" alt="">
+		</div>
+		<div class="col-auto vborder"></div>
+		<div class=" vec2-bg ">
+			<img src="imges/vec5.png" alt="">
+		</div>
+		
+	</div>
+	
+	<span id="Reality" class="mt-4" >Reality</span>
+	
+		<div class="row p-4 justify-content-center ">
+			<div class="col-12 col-sm-6 col-md-6">
+				<div class="row">
+					<div class="cont ">
+						<img src="imges/hey11.png" alt="">
+					</div>
+					<p style="font-size: 10pt" class="col">
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.					
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6">
+				<div class="row">
+					<div class="cont ">
+						<img src="imges/hey12.png" alt="">
+					</div>
+					<p style="font-size: 10pt" class="col">
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.					
+					</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+<footer >
+	<div class="inner-footer"  >
+			<h4 style="text-align: center; color: white;">subsrcibe to our newsletter</h4>
+				<div 
+				aria-autocomplete="list" 
+				aria-multiline="true" 
+				class="txtbox mt-3 mb-3 " 
+				contentEditable="false" 
+				role="textbox"
+				>
+					<span class="ml-2"  style="text-align: center;height: 100%;"  >
+						<img src="imges/msg.png" alt="">
+					</span>
+					<input   class=" ml-1 subsrcibe-input   "  placeholder="your@email.ccom" aria-label="Search">
+					<button  class="subscribe-button" id="basic-addon2">Subscribe</button>
+				</div>
+				<div class="mt-3 mb-3 footer-border"  ></div>
+
+				<div class="groups row p-4 justify-content-between">
+					<div class="group col-6 col-sm-3 col-md-3 col-lg-auto">
+						<p>lorem ipsum</p>
+						<div class="childs col">
+							<ul>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+							</ul>
+						</div>
+					</div>
+					<div class="group col-6 col-sm-3 col-md-3 col-lg-auto">
+						<p>lorem ipsum</p>
+						<div class="childs col">
+							<ul>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+								<li>lorem lorem</li>
+							</ul>
+						</div>
+					</div>
+					<div  class="group col-auto">
+						<p>Follow us</p>
+						<div class="childs col-auto">
+							<ul class="social ">
+								<li><img src="imges/f.png" alt=""></li>
+								<li><img src="imges/t.png" alt=""></li>
+								<li><img src="imges/g.png" alt=""></li>
+								<li><img src="imges/y.png" alt=""></li>
+							</ul>
+							<span >Copyright © All Rights reserved</span>
+						</div>
+					</div>
+				</div>		
+	</div>
+
+	
+</footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>
