@@ -270,7 +270,7 @@ header .login{
     line-height: 3.8rem;
 }
 .vborder{
-  max-width: 30px;
+  max-width: 30px!important;
    position: relative;
   top: 2rem;
   background-color: #e2dee0;
