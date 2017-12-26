@@ -91,24 +91,19 @@ position: absolute;
     top: -23px;
 }
  .filter-background{
-    background: url(imges/f1.png);
-    width: 4rem;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: -32px;
-    
-    height: 63px;
+  background: url(imges/f1.png);
+  width: 4rem;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: -82px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 
- .filter-logo{
-    position: absolute;
-    bottom: 22px;
-    text-align: center;
-    width: 41px;
-    left: 9px;
-
-}
+ 
 header .items ul li{
   flex: 1;
 }
@@ -133,7 +128,7 @@ header .search-wrapper{
 
 }
 .nav-right{
--webkit-flex:1;
+  flex: 1 0 10%;
 }
 header .login{
   background-color: #e94e38;
@@ -275,8 +270,8 @@ header .login{
     line-height: 3.8rem;
 }
 .vborder{
-  width: 30px!important;
-    position: relative;
+  max-width: 30px;
+   position: relative;
   top: 2rem;
   background-color: #e2dee0;
   height: 1px;
@@ -470,7 +465,8 @@ footer{
   }
 }
 @media screen and (max-width: 490px)  {
-  .vec-bg , .vec2-bg{
+  
+  vec-bg , .vec2-bg{
     width: 55px;
     height: 55px;
     line-height: 3rem;
