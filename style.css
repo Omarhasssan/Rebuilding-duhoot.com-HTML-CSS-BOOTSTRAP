@@ -80,7 +80,7 @@ position: absolute;
   position:absolute;
   position: absolute;
   bottom: 20px;
-  left: 10px;
+  left: 19px;
 }
 .profile-pic:before{
     content: '';
@@ -92,7 +92,7 @@ position: absolute;
 }
  .filter-background{
   background: url(imges/f1.png);
-  width: 4rem;
+  width: 62px;
   background-repeat: no-repeat;
   position: relative;
   bottom: -82px;
@@ -466,9 +466,9 @@ footer{
 }
 @media screen and (max-width: 490px)  {
   
-  vec-bg , .vec2-bg{
-    width: 55px;
-    height: 55px;
+  .vec-bg , .vec2-bg{
+    width: 55px!important;
+    height: 55px!important;
     line-height: 3rem;
   }
   .vec-bg img , .vec2-bg img{
